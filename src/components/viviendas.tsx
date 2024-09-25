@@ -4,6 +4,21 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { X } from 'lucide-react'
 
+interface Vivienda {
+  id: number;
+  titulo: string;
+  imagen: string;
+  precio: string;
+  caracteristicas: Caracteristicas;
+}
+
+interface Caracteristicas {
+  habitaciones: number;
+  banos: number;
+  metros: number;
+  extras: string[];
+}
+
 const viviendas = [
   {
     id: 1,
@@ -45,7 +60,7 @@ const viviendas = [
 ]
 
 export function ViviendasComponent() {
-  const [selectedVivienda, setSelectedVivienda] = useState(null)
+  const [selectedVivienda, setSelectedVivienda] = useState<Vivienda | null>(null);
 
   return (
     <section id="viviendas" className="py-16 bg-gray-100">
