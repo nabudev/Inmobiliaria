@@ -35,7 +35,7 @@ export function NavbarComponent() {
           <Link href="/" className={`text-2xl font-bold ${
             isScrolled ? 'text-gray-900' : 'text-white'
           }`}>
-            InmobiliariaXYZ
+            Inmobiliaria Zamora
           </Link>
           <div className="hidden md:flex space-x-4">
             {['Viviendas', 'Contacto', 'Ubicación'].map((item) => (
