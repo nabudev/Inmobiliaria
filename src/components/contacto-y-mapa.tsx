@@ -37,7 +37,6 @@ export function ContactoYMapaComponent() {
                 width="600"
                 height="450"
                 style={{ border: 0 }}
-                allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="w-full h-full rounded-lg shadow-md"
