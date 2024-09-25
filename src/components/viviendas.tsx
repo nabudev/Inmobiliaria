@@ -19,7 +19,7 @@ const viviendas = [
   },
   {
     id: 2,
-    titulo: "Apartamento Céntrico",
+    titulo: "Departamento Céntrico",
     imagen: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     precio: "$150,000",
     caracteristicas: {
@@ -27,6 +27,18 @@ const viviendas = [
       banos: 1,
       metros: 80,
       extras: ["Balcón", "Ascensor"]
+    }
+  },
+  {
+    id: 3,
+    titulo: "Cabaña",
+    imagen: "https://media.staticontent.com/media/pictures/b5b843a2-5325-49b2-a7df-01327e002282",
+    precio: "$75,000",
+    caracteristicas: {
+      habitaciones: 3,
+      banos: 1,
+      metros: 55,
+      extras: ["Descanso", "Patio amplio"]
     }
   },
   // Añade más viviendas aquí
